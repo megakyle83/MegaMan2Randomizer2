@@ -84,7 +84,7 @@ namespace MM2Randomizer.Randomizers
             // Line 2: Version
             System.Reflection.Assembly assembly = System.Reflection.Assembly.GetExecutingAssembly();
             string version = assembly.GetName().Version.ToString().Substring(0, 5);
-            char[] line2 = $"  MEGA MAN 2 RANDOMIZER {version}  ".ToCharArray();
+            char[] line2 = $"  BUTT MAN 2 RANDOMIZER {version}  ".ToCharArray();
             for (int i = 0; i < INTRO_LINE2_MAXCHARS; i++)
             {
                 byte charByte = IntroCipher[line2[i]];
